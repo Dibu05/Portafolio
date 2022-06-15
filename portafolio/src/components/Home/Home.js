@@ -9,7 +9,7 @@ const Home = () => {
       <section className="hero" id="home">
         <div className="container top">
           <div className="left">
-            <h3>Bienvenido!</h3>
+            <h3>Bienvenido/a!</h3>
             <h1>
               Hola, soy <span>Agustin Almada</span>
             </h1>
@@ -44,14 +44,11 @@ const Home = () => {
                 <button className="btn_shadow">
                     <i class="fab fa-github"></i>
                 </button>
-                <button className="btn_shadow">
-                    <i class="fab fa-gmail"></i>
-                </button>
               </div>
             </div>
           </div>
-          <div className="left">
-            <div className="left_img">
+          <div>
+            <div className="right_img">
                 <img src={img}/>
                 </div>
           </div>

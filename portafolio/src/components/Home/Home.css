@@ -1,25 +1,31 @@
 .hero {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;    
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+  
   }
   .hero h3 {
-    font-weight: 90;
     letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 45%;
   }
   .hero h1 {
     font-size: 50px;
     font-weight: bold;
+    margin-left: 25%;
   }
   
   .hero h1 span {
     color: #ff014f;
+
   }
   .hero h2 {
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 2px;
+    margin-left: 30%;
 
   }
   .hero h2 span {
@@ -29,41 +35,38 @@
     color: #878e99;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   .hero_btn h4 {
     font-weight: 500px;
     letter-spacing: 2px;
     color: #43474b;
-    font-size: 15px;
-    margin: 20px 0 20px 0;
+    font-size: 25px;
+    margin: 50px 0 30px 37%;
   }
   .hero_btn button {
-    margin-right: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   .hero_btn i {
-    font-size: 25px;
+    font-size: 35px;
   }
   
   .hero_btn button img {
     width: 35px;
     height: 35px;
   }
-  .hero .left {
-    margin-right: 10%;
-  }
-  .hero .right {
-    width: 40%;
-    position: relative;
-  }
+
   .hero .right_img {
-    height: 110px;
-    width: 110px;
+    width: 20%;
+    height: 20%;
+    margin-top: -150px;
   }
-  .hero .right_img img {
-   
-}
+  .col_1 {
+    margin-left: 30%;
+  }
+  
   @media (max-width: 768px) {
     .hero .right,
     .hero .left {
@@ -71,12 +74,12 @@
       margin-left: 20px;
     }
   
-    .hero .f_flex {
-      flex-direction: column;
-      flex-direction: column-reverse;
-    }
     .hero .right_img {
-      width: 100%;
-      height: 54vh;
+      width: 10%;
+      height: 10%;
+      display: inline;
+    }
+    .col_1{
+      margin-left: 0%;
     }
   }

@@ -1,0 +1,28 @@
+.carrusel{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon {
+    width: 15%;
+    height: 15%;
+    margin-top: 35px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.txt {
+    font-size: 2rem;
+    color:#43474b;
+    margin-left: 5%;
+    margin-bottom: 5%;;    
+    font-weight: bold;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 45%;
+    margin-top: 3%;
+}
