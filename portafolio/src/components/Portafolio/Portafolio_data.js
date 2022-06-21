@@ -1,0 +1,60 @@
+const Portafolio_Data = [
+  {
+    id: 1,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "640",
+    image: './Pics/food.jpeg',
+  },
+  {
+    id: 2,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "600",
+    image: "./Pics/food.jpeg",
+  },
+  {
+    id: 3,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "640",
+    image: "./Pics/food.jpeg",
+  },
+  {
+    id: 4,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "640",
+    image: "./Pics/food.jpeg",
+  },
+  {
+    id: 5,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "640",
+    image: "./Pics/food.jpeg",
+  },
+  {
+    id: 6,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "640",
+    image: "./Pics/food.jpeg",
+  },
+  {
+    id: 7,
+    category: "Web",
+    title: "Portafolio",
+    description: "Portafolio de trabajos realizados",
+    likes: "640",
+    image: "./Pics/food.jpeg",
+  },
+];
+
+export default Portafolio_Data;
