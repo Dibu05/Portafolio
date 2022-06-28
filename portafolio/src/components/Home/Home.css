@@ -72,7 +72,7 @@
   }
   
   @media (max-width: 768px) {
-    .left {
+    .leftt {
       display: flex;
       flex-direction: column;
       justify-content: center;

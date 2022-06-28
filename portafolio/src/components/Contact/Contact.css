@@ -1,0 +1,104 @@
+.Contact .left {
+  width: 100%;
+}
+.Contact .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 1%;
+}
+.Contact .box{
+    height: 100%;
+}
+.Contact .details h1 {
+  font-size: 2.5rem;
+}
+.Contact .details p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5%;
+}
+.Contact .button {
+  margin-top: 20px;
+}
+.Contact button {
+  margin-right: 20px;
+}
+
+.Contact .input span {
+  font-size: 1.4rem;
+  margin-left: 35%;
+}
+.Contact input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.Contact .right button {
+  width: 100%;
+  color: #ff014f;
+}
+.Contact .right button:hover {
+  color: white;
+}
+.Contact .right button i {
+  margin-left: 10px;
+}
+
+textarea {
+  margin-left: 10%;
+}
+.titulo_contc {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3%;
+  color: #43474b;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 999px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact .left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Contact .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  textarea {
+    width: 80%;
+  }
+  .Contact .details h1 {
+    font-size: 1.5rem;
+    margin-left: 15%;
+  }
+  .Contact .details p {
+    font-size: 1rem;
+    margin-bottom: 0.5%;
+    margin-left: 15%;
+    width: 80%;
+  }
+  img {
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 0%;
+  }
+}

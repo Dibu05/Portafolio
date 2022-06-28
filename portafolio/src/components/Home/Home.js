@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <section className="hero" id="home">
         <div className="container top">
-          <div className="left">
+          <div className="leftt">
             <h3>Bienvenido/a!</h3>
             <h1>
               Hola, soy <span>Agustin Almada</span>
