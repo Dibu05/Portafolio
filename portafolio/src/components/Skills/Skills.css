@@ -1,6 +1,7 @@
 .carrusel{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    margin-bottom: 30px;
 
 }
 
@@ -13,7 +14,7 @@
 }
 .txt {
     font-size: 2rem;
-    color:#43474b;
+    color: black;
     margin-left: 5%;
     margin-bottom: 5%;;    
     font-weight: bold;
@@ -25,4 +26,19 @@ h2 {
     font-weight: 700;
     margin-left: 45%;
     margin-top: 3%;
+    color: #43474b;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 768px) {
+    .txt {
+        font-size: 1.5rem;
+        margin-left: 30%;
+    }
+    .icon{
+        margin-bottom: 45px;
+    }
+    h2{
+        margin-left: 30%;
+    }
 }

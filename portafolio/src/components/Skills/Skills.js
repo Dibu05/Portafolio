@@ -15,7 +15,7 @@ import './Skills.css'
 
 const Skills = () => {
   return (
-    <div className='carrusel'>
+    <div className='carrusel' id='skills'>
       <h2>Habilidades!</h2>
 <Carousel>
   <Carousel.Item interval={1500}>

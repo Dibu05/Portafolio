@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Typewriter } from "react-simple-typewriter";
-import img from '../Pics/hola.jpeg';
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -15,15 +14,21 @@ const Home = () => {
             </h1>
           </div>
           <h2>
-            desarrollador 
+              desarrollador 
             <span>
               <Typewriter
-                words={[" Web", " Mobile", " Front end"]} loop cursor cursorStyle='|' typeSpeed={80} deleteSpeed={80} delaySpeed={1000}/>
+                options={{
+                  strings: ["> Web", "> Mobile", "> Front end"],
+                  loop: true,
+                  delay: 40,
+                  autoStart: true,
+                }}
+              />
             </span>
           </h2>
 
           <p>
-            Tengo 23 años soy apasionado a las nuevas tecnologías y buenas
+            Tengo 23 años soy de Argentina, apasionado a las nuevas tecnologías y buenas
             practicas de desarrollo con un aprendizaje continuo para mejorar mis
             habilidades en el campo.
           </p>
@@ -40,17 +45,12 @@ const Home = () => {
                 </button>
                 <button className="btn_shadow">
                   <i class="fab fa-linkedin-in"></i>
-                </button>   
+                </button>
                 <button className="btn_shadow">
-                    <i class="fab fa-github"></i>
+                  <i class="fab fa-github"></i>
                 </button>
               </div>
             </div>
-          </div>
-          <div>
-            <div className="right_img">
-                <img src={img}/>
-                </div>
           </div>
         </div>
       </section>

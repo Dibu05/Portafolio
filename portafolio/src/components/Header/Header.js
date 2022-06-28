@@ -27,16 +27,16 @@ const Header = () => {
             {/*<ul className="link f_flex uppercase">*/}
                 <ul className={open ? "nav-link-open" : "link f_flex uppercase"} onClick={() => setOpen(false)}>
               <li>
-                <a href="home">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="skills">Habilidades</a>
+                <a href="#skills">Habilidades</a>
               </li>
               <li>
-                <a href="project">Proyecto</a>
+                <a href="#portfolio">Proyecto</a>
               </li>
               <li>
-                <a href="contact">Contacto</a>
+                <a href="#contact">Contacto</a>
               </li>
             </ul>
             <button className="toggle" onClick={() => setOpen(!open)}>

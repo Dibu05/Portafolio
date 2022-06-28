@@ -18,7 +18,7 @@
 }
 
 .Portfolio .img {
-  height: 300px;
+  height: 50%;
   overflow: hidden;
   transition: 0.5s;
 }
@@ -57,7 +57,7 @@
 .Portfolio h2 {
   font-size: 18px;
   transition: 0.5s;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin-left: 30%;
 }
 .Portfolio .box:hover h2 {
@@ -66,4 +66,3 @@
 .Portfolio .box:hover {
   color: black;
 }
-

@@ -1,6 +1,6 @@
 import React,{useState} from "react"
 import Modal from "./Modal"
-
+import './Cards.css'
 
 const Card = ({image, description, title, likes, category, tec, dire}) => {
   const [modal, setModal] = useState(false)
@@ -19,9 +19,6 @@ const Card = ({image, description, title, likes, category, tec, dire}) => {
         </div>
         <div className='title'>
           <h2 onClick={() => setModal(!modal)}>{title}</h2>
-          <a href='#popup' className='arrow' onClick={() => setModal(!modal)}>
-            <i class='fas fa-arrow-right'></i>
-          </a>
         </div>
       </div>
       <Modal
