@@ -68,7 +68,11 @@
   }
   .col_1 {
     margin-left: 28%;
-    margin-bottom: 41px;
+    margin-bottom: 45px;
+  }
+  .btn_cv{
+    margin-left: 42%;
+    margin-bottom: 3%;
   }
   
   @media (max-width: 768px) {
@@ -93,7 +97,7 @@
       
     }
     .col_1{
-      margin-left: 20%;
+      margin-left: 30%;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -115,5 +119,7 @@
       font-size: 35px;
       margin-left: 35%;
     }
-  
+    .btn_cv{
+      margin-left: 20%;
+    }
   }

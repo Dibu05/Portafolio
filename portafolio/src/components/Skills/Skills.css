@@ -25,10 +25,11 @@ h2 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-left: 45%;
-    margin-top: 3%;
     color: #43474b;
     margin-bottom: 20px;
-
+}
+.txt_skill{
+    margin-top: 2%;
 }
 @media (max-width: 768px) {
     .txt {

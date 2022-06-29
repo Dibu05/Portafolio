@@ -11,6 +11,7 @@
 .Portfolio .box {
   border-radius: 15px;
   position: relative;
+  height: 500px;
 }
 .Portfolio .box:hover {
   background: none;
@@ -33,7 +34,7 @@
   transform: scale(1.1);
 }
 .Portfolio .category {
-  margin: 20px 0 30px 0;
+  margin: 0 0 30px 0;
   text-transform: uppercase;
 }
 .Portfolio .category span {
@@ -41,6 +42,7 @@
   font-size: 15px;
   letter-spacing: 2px;
   font-weight: 1000;
+  margin-top: 5%;
 }
 .Portfolio .arrow {
   position: absolute;
@@ -65,4 +67,7 @@
 }
 .Portfolio .box:hover {
   color: black;
+}
+.txt_porta{
+  margin-bottom: 4%;
 }

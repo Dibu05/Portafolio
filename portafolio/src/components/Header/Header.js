@@ -24,7 +24,6 @@ const Header = () => {
             </a>
           </div>
           <div className="navlink">
-            {/*<ul className="link f_flex uppercase">*/}
                 <ul className={open ? "nav-link-open" : "link f_flex uppercase"} onClick={() => setOpen(false)}>
               <li>
                 <a href="#home">Home</a>
@@ -34,6 +33,9 @@ const Header = () => {
               </li>
               <li>
                 <a href="#portfolio">Proyectos</a>
+              </li>
+              <li>
+                <a href="#resume">Experiencia</a>
               </li>
               <li>
                 <a href="#contact">Contacto</a>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Modal.css";
-import {Link, a} from 'react-router-dom'
 
 const Modal = ({
   title,
@@ -30,10 +29,10 @@ const Modal = ({
             <h5 className="div_tec">Tecnologias Utilizadas: <span className="span_txt">{tec}</span></h5>
             </div>
             <div className="btn_proy">
-              <a href={dire}><button className="btn_shadow">Ver Proyecto <i class="fab fa-github"></i></button></a>
-              <button className="btn_shadow" onClick={() => setModal(!modal)}>Me gusta <i class="far fa-thumbs-up"></i></button>
+              <a href={dire} target="_blank" rel="noopener noreferrer"><button className="btn_shadow">Ver Proyecto <i className="fab fa-github"></i></button></a>
+              <button className="btn_shadow" onClick={() => setModal(!modal)}>Me gusta <i className="far fa-thumbs-up"></i></button>
             </div>
-            <div className="div_likes"><i class='far fa-heart'></i> {likes}</div>
+            <div className="div_likes"><i className='far fa-heart'></i> {likes}</div>
             <div className="div_img">
               <img src={image} alt="" />
             </div>

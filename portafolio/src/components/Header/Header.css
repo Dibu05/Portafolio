@@ -4,7 +4,7 @@ header {
 }
 
 header .container {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 header ul li {
@@ -40,6 +40,14 @@ header ul li a:hover {
 
 .open {
   display: none;
+}
+
+.header.active {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  transition: 0.5s;
 }
 
 
@@ -88,6 +96,8 @@ header ul li a:hover {
     width: 30px;
     height: 30px;
     line-height: 30px;
+    opacity: 20%;
+    
   }
   .header.active {
     height: 10vh;

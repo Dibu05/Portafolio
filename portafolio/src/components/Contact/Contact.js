@@ -3,6 +3,7 @@ import "./Contact.css";
 import contact1 from "../Pics/contact1.png";
 import emailjs from "@emailjs/browser";
 
+
 const Contact = () => {
   const form = useRef();
 
@@ -19,11 +20,15 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          e.target.reset()
+          alert('Mensaje enviado correctamente! sera respondido en breves. Saludos!')
         },
         (error) => {
           console.log(error.text);
+          alert('Ups en estos momento no funciona, porfavor envie un correo a: almadaagustin05@gmail.com')
         }
       );
+      
   };
 
   return (
@@ -34,7 +39,7 @@ const Contact = () => {
             <h1 className="titulo_contc">Contactese conmigo! </h1>
           </div>
 
-          <div className="content">
+          <div className="contentt d_flex">
             <div className="left">
               <div className="box box_shodow">
                 <div className="img">
@@ -56,7 +61,7 @@ const Contact = () => {
             </div>
 
             <div className="right box_shodow">
-              <form ref={form} onSubmit={sendEmail} >
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="columnas">
                   <div className="input">
                     <span>Nombre.</span>
@@ -65,6 +70,7 @@ const Contact = () => {
                       type="text"
                       name="name"
                       className="input_name"
+
                       required
                     />
                   </div>
@@ -91,13 +97,13 @@ const Contact = () => {
                   <span>Tu Mensaje.</span>
                   <textarea
                     placeholder="Hola Agustin...."
-                    cols="45"
+                    cols="61"
                     rows="10"
                     name="message"
                     required
                   ></textarea>
                 </div>
-                <button id="button" className="btn_shadow">
+                <button className="btn_shadow">
                   Enviar <i className="fa fa-long-arrow-right"></i>
                 </button>
               </form>

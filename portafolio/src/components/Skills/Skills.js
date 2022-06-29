@@ -16,7 +16,7 @@ import './Skills.css'
 const Skills = () => {
   return (
     <div className='carrusel' id='skills'>
-      <h2>Habilidades!</h2>
+      <h2 className='txt_skill'>Habilidades!</h2>
 <Carousel>
   <Carousel.Item interval={1500}>
     <img
@@ -56,6 +56,16 @@ const Skills = () => {
     />
     <Carousel.Caption>
       <h3 className='txt'>REDUX</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={1500}>
+    <img
+      className="icon"
+      src={react}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3 className='txt'>REACT NATIVE</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={1500}>
