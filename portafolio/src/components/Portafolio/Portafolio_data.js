@@ -40,7 +40,7 @@ const Portafolio_Data = [
     id: 4,
     category: "Mobile",
     title: "App para Riders",
-    description: "Proyecto en el que trabajo con otros dev para la empresa NIPPY basado en el desarrollo de una aplicación Mobile para el servicio de delivery que incluye: registro, login, perfil, localización en mapa, entre otras. Por politicas de la empresa no puedo mostrar el Codigo,",
+    description: "Proyecto en el que trabajo con otros dev para la empresa NIPPY basado en el desarrollo de una aplicación Mobile para el servicio de delivery que incluye: registro, login, perfil, localización en mapa, entre otras. Por politicas de la empresa no puedo mostrar el Codigo.",
     likes: 1020,
     tec:'React Native, Mongo DB, Redux, Expo, Axios, CSS.',
     image: img4,
